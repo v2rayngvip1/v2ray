@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="خرید فیلترشکن V2ray، خرید کانفیگ V2rayNG، خرید اشتراک V2ray، راه اندازی فیلترشکن V2ray برای ویندوز، اندروید و آیفون.">
@@ -9,6 +11,260 @@
     <title>خرید فیلترشکن V2ray - خرید کانفیگ V2rayNG، اشتراک V2ray</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>/* عمومی */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+body {
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* هدر */
+.navbar {
+    background-color: #003366;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.navbar .logo h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.navbar nav ul li {
+    margin-left: 30px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.navbar nav ul li a:hover {
+    border-bottom: 2px solid #ff7f50;
+}
+
+/* بخش قهرمان (Hero) */
+#hero {
+    background-image: url('https://via.placeholder.com/1600x800'); /* می‌توانید تصویر دلخواه را قرار دهید */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hero h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e65c38;
+}
+
+/* بخش خرید فیلترشکن */
+#buy {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#buy h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#buy p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.plan {
+    background-color: #f4f7fc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.plan p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.plan .btn {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.plan .btn:hover {
+    background-color: #ff7f50;
+}
+
+/* ویژگی‌ها */
+#features {
+    padding: 50px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#features ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+#features ul li {
+    margin-bottom: 15px;
+}
+
+#features ul li strong {
+    color: #003366;
+}
+
+/* بخش چگونه کار می‌کند؟ */
+#how-it-works {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#how-it-works h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#how-it-works p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* بخش پشتیبانی */
+#support {
+    padding: 50px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+}
+
+#support h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#support ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+#support ul li {
+    margin-bottom: 15px;
+}
+
+/* فوتر */
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* ریسپانسیو */
+@media (max-width: 768px) {
+    .navbar nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+}</style>
 </head>
 <body>
 
