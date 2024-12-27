@@ -3,8 +3,8 @@
 
 ✅**جهت خرید اشتراک ویتوری، مشاوره و سفارش از طریق لینک های زیر اقدام کنید:**
 
-- 🔴کلیک کنید: [ارسال پیام در تلگرام 24 ساعته](https://t.me/v2rayngsup)
-- 🔴خرید VPN با کیفیت و مطمئن: [خرید فوری از ربات تلگرام](https://t.me/v2rayng_gptbot)
+- 🔴ارسال پیام در تلگرام 24 ساعته به آیدی تلگرام: **V2RAYNGSUP**
+- 🔴خرید VPN فوری از ربات تلگرام آیدی: **V2RAYNG_GPTBOT**
 
 ![خرید فیلترشکن v2ray خرید اشتراک V2rayNG خرید وی پی ان ویتوری](https://github.com/v2rayngvip1/v2ray/blob/main/%D8%AE%D8%B1%DB%8C%D8%AF%20%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%DA%A9%20V2rayNG%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%81%DB%8C%D9%84%D8%AA%D8%B1%20%D8%B4%DA%A9%D9%86%20V2ray.jpg?raw=true)
 
